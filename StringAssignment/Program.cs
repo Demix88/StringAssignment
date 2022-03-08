@@ -10,6 +10,7 @@ namespace StringAssignment
     {
         static void Main(string[] args)
         {
+            //Concatenated strings with string to uppercase
             string part1 = ("\"If opportunity ");
             string part2 = ("doesn't knock,  ");
             string part3 = ("build a door.\"");
@@ -17,10 +18,7 @@ namespace StringAssignment
             string concat = (part1 + part2 + part3+"\n"+part4);
             Console.WriteLine(concat.ToUpper());
            
-
-
-
-
+            //StringBuilder Paragraph
             StringBuilder sb = new StringBuilder();
             sb.Append("\n\"If I am not for myself, who is for me? ");
             sb.AppendLine("And if I am only for myself, what am I?");
